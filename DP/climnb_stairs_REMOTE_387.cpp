@@ -18,12 +18,8 @@ long long countWays(int n)
         }
         
      return dp[n];   
-<<<<<<< Updated upstream
-}
-=======
     }
 
->>>>>>> Stashed changes
 int cs(int n,int a[]){
     // write your code here
 

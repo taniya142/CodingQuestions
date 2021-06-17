@@ -58,10 +58,11 @@ public:
             }
             temp=temp->next;
         }
-        while(e->next!=NULL){
-            e=e->next;
-        }
-        e->next=o;
+
+        if(odd)
+            odd->next=NULL;
+
+        even->next=o;
         
         return e;
         

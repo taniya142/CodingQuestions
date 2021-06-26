@@ -32,7 +32,7 @@ class Solution{
         
         temp=head;
         
-        sortLL(v.begin(),v.end());
+        sort(v.begin(),v.end());
         
        int i=0;
         

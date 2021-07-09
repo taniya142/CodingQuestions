@@ -32,7 +32,7 @@ void convert(Node *head, TreeNode *&root) {
         if(head){
             rightC=newBinaryTree(head->data);
             q.push(rightC);
-        head=head->next;
+            head=head->next;
         }
         
         mainRoot->left=leftC;
